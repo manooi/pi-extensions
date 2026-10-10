@@ -1,0 +1,17 @@
+{
+  "name": "wit-pi-extensions",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pi extensions for planning, permissions, and completion",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": [
+      "./extensions/pi-finish/index.ts",
+      "./extensions/pi-permission/index.ts",
+      "./extensions/pi-plan/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.*
+!.env.example
+extensions/pi-permission/config.json
+extensions/pi-permission/decisions.json
+extensions/pi-permission/decisions.log
